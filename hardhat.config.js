@@ -1,7 +1,4 @@
-require("@nomiclabs/hardhat-waffle");
 require("@nomiclabs/hardhat-ethers");
-require("hardhat-abi-exporter");
-require("hardhat-gas-reporter");
 const config = require("./.config.json");
 
 /**
