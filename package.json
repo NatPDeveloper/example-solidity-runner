@@ -1,0 +1,45 @@
+{
+  "name": "example-solidity-runner",
+  "version": "1.0.0",
+  "description": "Example solidity runner repositoyry for running DAPP Workers solidity-runner Docker image",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx hardhat test",
+    "worker": "npx hardhat run scripts/deploy.js --network hardhat"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NatPDeveloper/example-solidity-runner.git"
+  },
+  "keywords": [
+    "docker",
+    "solidity",
+    "web3",
+    "defi",
+    "dao"
+  ],
+  "author": "NatPDeveloper",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NatPDeveloper/example-solidity-runner/issues"
+  },
+  "homepage": "https://github.com/NatPDeveloper/example-solidity-runner#readme",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.2",
+    "@nomiclabs/hardhat-etherscan": "^2.1.7",
+    "@nomiclabs/hardhat-waffle": "^2.0.1",
+    "@openzeppelin/hardhat-upgrades": "^1.11.0",
+    "chai": "^4.3.4",
+    "ethereum-waffle": "^3.3.0",
+    "ethers": "^5.3.0",
+    "hardhat": "^2.4.3"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^3.3.0",
+    "@openzeppelin/contracts-upgradeable": "^3.3.0",
+    "dotenv": "^10.0.0",
+    "hardhat-abi-exporter": "^2.2.1",
+    "hardhat-gas-reporter": "^1.0.4",
+    "web3": "^1.7.3"
+  }
+}
