@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "npx hardhat test",
-    "worker": "npx hardhat run scripts/deploy.js --network hardhat"
+    "worker": "npx hardhat run scripts/worker.js --network hardhat"
   },
   "repository": {
     "type": "git",
